@@ -115,6 +115,24 @@ h3 {
     padding: 5px;
 }
 
+.column-100 {
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+
+.column-100-r {
+    float: right;
+    width: 100%;
+    padding: 5px;
+}
+
+.column-100-c {
+    float: none;
+    width: 100%;
+    padding: 5px;
+}
+
 .column-r {
     float: right;
     width: 33%;
@@ -205,6 +223,9 @@ footer {
     margin: 0 0 20px;
 }
 
+.card-body{
+    background-color: #f7907063;
+}
 
 
 @media screen and (max-width: 1396px) {
