@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Bespoke Aesthetics Stamford is your number one source for the best quality beauty treatments available in Stamford Lincs (Lincolnshire)">
+    <meta name="Description" content="About Bespoke Aesthetics Stamford">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     
     
-    <title>Bespoke Aesthetics Stamford</title>
+    <title>Bespoke Aesthetics Stamford - About Page</title>
    
 </head>
 <body>
@@ -22,49 +22,25 @@
     <nav>
         <ul id="menu">
             <li>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
             </li>
             <li>
                 <a href="treatments.html">Treatments</a>
             </li>
             <li>
-                <a href="about.html">About</a>
+                <a href="about.html" class="active"">About</a>
             </li>
             <li>
                 <a href="prices.html">Prices</a>
             </li>
             <li>
-                <a href="about.html#contact">Contact</a>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
   </section>
     <br>
-    <br>
-  <section>
-      <script> carousel = new bootstrap.Carousel('#myCarousel')</script>
-      <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="Media/beauty-salon-3277314_1280.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="Media/beauty-salon-3312522_1280.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="Media/beauty-salon-4043096_1280.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-  </section>
+  <h1>About Us</h1>
   <section>
     <div class="row">
         <div class="column">
@@ -126,6 +102,39 @@
             <img src="Media/woman-3288365_1280.jpg" alt="">
         </div>
     </div>
+  </section>
+  <section class="center">
+    <h2 id="contact">Contact Us!</h2>
+    <form action="/signup-demo" method="post" id="signup" onsubmit="submit_form()">
+      <label for="fname">First Name</label>
+      <br />
+      <input type="text" id="fname" name="fname" />
+      <br />
+      <label for="lname">Last Name</label>
+      <br />
+      <input type="text" id="lname" name="lname" />
+      <br />
+      <label for="email">Email Address</label>
+      <br />
+      <input type="email" id="email" name="email" />
+      <br />
+      <label for="comments">Your Query</label>
+      <br />
+      <textarea
+        id="comments"
+        name="comments"
+        rows="4"
+        cols="40"
+        placeholder="Any questions or comments? Write them here!"
+      ></textarea>
+      <br />
+      
+      <input type="reset" id="reset" name="reset" />
+      <div class="error" id="errorMessage"></div>
+
+      <button type="button" onclick="validateForm()">Submit</button>
+    </form>
+      <script src="form.js"></script>
   </section>
   <footer>
       <ul class="social-networks">
