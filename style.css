@@ -259,7 +259,7 @@ footer {
         line-height: 25px;
     }
 
-    #cover-text {
+    #cover-text, #logo {
         left: 0px;
     }
 
@@ -280,5 +280,9 @@ footer {
 
     img {
         max-width: 500px;
+    }
+
+    ,card {
+        width: 500px;
     }
 }
