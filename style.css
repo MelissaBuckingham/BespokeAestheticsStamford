@@ -267,7 +267,7 @@ footer {
         width: 100%;
     }
 
-    .column, .column-r {
+    .column, .column-r, .col, .card {
         width: 100%;
     }
 }
