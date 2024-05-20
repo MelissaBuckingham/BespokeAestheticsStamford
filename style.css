@@ -7,10 +7,18 @@ p {
 
 body {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(/Media/background3.jpg);
+    background-image: -webkit-linear-gradient() url(/Media/background3.jpg);
+    background-color: rgba(255, 218, 185, 0.637);
 }
+
+
 
 nav {
     float: right;
+}
+
+nav select {
+    display: none;
 }
 
 h1 {
@@ -261,6 +269,9 @@ footer {
 
     #cover-text, #logo {
         left: 0px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
 
     .row {
@@ -269,6 +280,14 @@ footer {
 
     .column, .column-r, .col, .card {
         width: 100%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav select {
+        display: inline-block;
     }
 }
 
