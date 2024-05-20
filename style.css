@@ -263,15 +263,22 @@ footer {
         left: 0px;
     }
 
+    .row {
+        width: 100%;
+    }
+
+    .column, .column-r {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 800px) {
 
-    #hero-image {
-        height: 300px;
+    img {
+        max-height: 300px;
     }
 
-    #hero-outer {
-        height: 300px;
+    img {
+        max-width: 300px;
     }
 }
